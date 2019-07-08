@@ -1,9 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Blocks
     - CameraController
     - Playercontroller
     - Rotator
+    - RotatorEnemy
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -13,7 +15,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Minigame.unity:
+    Assets/RollaBallChallenge.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -61,7 +63,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9662}
     - Class: 114
-      Script: {instanceID: 11952}
+      Script: {instanceID: 9700}
+    - Class: 114
+      Script: {instanceID: 9976}
+    - Class: 114
+      Script: {instanceID: 10504}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -543,6 +549,12 @@ ScriptsOnlyBuild:
     className: Rotator
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Blocks
+  - hash:
+      serializedVersion: 2
       Hash: 303ad70ce203ad874efe2965d0fbcff9
     assemblyName: Unity.Analytics.Tracker.dll
     namespaceName: UnityEngine.Analytics
@@ -601,6 +613,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: 068a125abed24b71cb5790299638acbf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Playercontroller
   - hash:
       serializedVersion: 2
       Hash: 3f8d7b92a6be3c715e55d5cfa7cc8384
@@ -699,6 +717,12 @@ ScriptsOnlyBuild:
     className: TMP_StyleSheet
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RotatorEnemy
+  - hash:
+      serializedVersion: 2
       Hash: 5372ed2ce39229b1ac910757999a8be2
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -727,13 +751,7 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Playercontroller
   platform: 19
   scenePathNames:
-  - Assets/Minigame.unity
-  playerPath: C:/Builds/Role the Ball Game.exe
+  - Assets/RollaBallChallenge.unity
+  playerPath: C:/ChallengeBuild1/Role the Ball Game.exe
